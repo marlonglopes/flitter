@@ -1,0 +1,220 @@
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM "users" WHERE 1=1[0m
+  [4;35;1mUser Delete all (0.1ms)[0m   [0mDELETE FROM "users" WHERE 1=1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."username" = 'foobar') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@example.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."username" = 'foobar') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@example.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at", "username", "password_salt", "password_hash", "email") VALUES('2010-11-04 02:51:33', '2010-11-04 02:51:33', 'foobar', '7f81d65f32677646c3965cff58af7483117bb761', 'c9386744a959916f707fcbcde0b35aa608b9003e', 'foo@example.com')[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."username" = 'foobar') LIMIT 1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM "users" WHERE 1=1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."username" = 'nonexisting') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email" = 'nonexisting') LIMIT 1[0m
+  [4;35;1mUser Delete all (0.2ms)[0m   [0mDELETE FROM "users" WHERE 1=1[0m
+  [4;36;1mUser Delete all (0.1ms)[0m   [0;1mDELETE FROM "users" WHERE 1=1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."username" = 'foo') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@bar.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."username" = 'foo') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@bar.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.2ms)[0m   [0mINSERT INTO "users" ("created_at", "updated_at", "username", "password_salt", "password_hash", "email") VALUES('2010-11-04 02:51:33', '2010-11-04 02:51:33', 'foo', 'f573fa0b607e938844221e4b0f01c26df4876ee0', 'ef040536d02f4c468834f34b08a2c056cc6b59ca', 'foo@bar.com')[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."username" = 'foo@bar.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email" = 'foo@bar.com') LIMIT 1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM "users" WHERE 1=1[0m
+  [4;35;1mUser Delete all (0.1ms)[0m   [0mDELETE FROM "users" WHERE 1=1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."username" = 'foobar') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@example.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."username" = 'foobar') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@example.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at", "username", "password_salt", "password_hash", "email") VALUES('2010-11-04 02:51:33', '2010-11-04 02:51:33', 'foobar', '8474bc1a96cc01232d77010a2caed0f5761318c7', '8a48fa5457e667a17bf99dbcca8f8077028323fe', 'foo@example.com')[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."username" = 'foobar') LIMIT 1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM "users" WHERE 1=1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."username" = 'foo') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@example.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."username" = 'foo') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@example.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.2ms)[0m   [0mINSERT INTO "users" ("created_at", "updated_at", "username", "password_salt", "password_hash", "email") VALUES('2010-11-04 02:51:33', '2010-11-04 02:51:33', 'foo', '48cd1a633296adce9b03271d66912ade79093286', '344898c0cab942c765083e94a664b4ba89a404c5', 'foo@example.com')[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM "users" WHERE 1=1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."username" = 'foo') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@example.com') LIMIT 1[0m
+  [4;35;1mUser Delete all (0.3ms)[0m   [0mDELETE FROM "users" WHERE 1=1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."username" = 'foo') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@example.com') LIMIT 1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM "users" WHERE 1=1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@example.com') LIMIT 1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM "users" WHERE 1=1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."username" = 'foo') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@bar@example.com') LIMIT 1[0m
+  [4;35;1mUser Delete all (0.2ms)[0m   [0mDELETE FROM "users" WHERE 1=1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."username" = 'foo') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@example.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."username" = 'foo') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@example.com') LIMIT 1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM "users" WHERE 1=1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."username" = 'odd ^&(@)') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@example.com') LIMIT 1[0m
+  [4;35;1mUser Delete all (0.2ms)[0m   [0mDELETE FROM "users" WHERE 1=1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."username" = 'foo') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@example.com') LIMIT 1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM "users" WHERE 1=1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."username" = 'foo') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'bar@example.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."username" = 'foo') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'bar@example.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.2ms)[0m   [0mINSERT INTO "users" ("created_at", "updated_at", "username", "password_salt", "password_hash", "email") VALUES('2010-11-04 02:51:33', '2010-11-04 02:51:33', 'foo', '265b4f5d6030c5df54e35d05d3f34382f4e5c60c', '7c0bf9aca097c960014991770e91d4fc8a3ce03d', 'bar@example.com')[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."username" = 'foo') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'bar@example.com') LIMIT 1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM "users" WHERE 1=1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."username" = 'uniquename') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@example.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."username" = 'uniquename') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@example.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.2ms)[0m   [0mINSERT INTO "users" ("created_at", "updated_at", "username", "password_salt", "password_hash", "email") VALUES('2010-11-04 02:51:33', '2010-11-04 02:51:33', 'uniquename', '659aa049d772c33cfe9e439bffca0e4b10d75b7b', '1fd41733f52d5077ef64356b0b34df3b03b00a98', 'foo@example.com')[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."username" = 'uniquename') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@example.com') LIMIT 1[0m
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2010-11-04 00:51:36) [POST]
+  Parameters: {"action"=>"create", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 11ms (View: 7, DB: 1) | 200 OK [http://test.host/sessions]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" LIMIT 1[0m
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2010-11-04 00:51:36) [POST]
+  Parameters: {"action"=>"create", "controller"=>"sessions"}
+
+
+Processing SessionsController#new (for 0.0.0.0 at 2010-11-04 00:51:36) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/login]
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-11-04 00:51:36) [POST]
+  Parameters: {"action"=>"create", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Completed in 16ms (View: 12, DB: 0) | 200 OK [http://test.host/users]
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-11-04 00:51:36) [POST]
+  Parameters: {"action"=>"create", "controller"=>"users"}
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO "users" ("created_at", "updated_at", "username", "password_salt", "password_hash", "email") VALUES('2010-11-04 02:51:36', '2010-11-04 02:51:36', NULL, NULL, NULL, NULL)[0m
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-11-04 00:51:36) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Completed in 7ms (View: 7, DB: 0) | 200 OK [http://test.host/signup]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2010-11-04 00:51:42) [POST]
+  Parameters: {"action"=>"create", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 10ms (View: 6, DB: 1) | 200 OK [http://test.host/sessions]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" LIMIT 1[0m
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2010-11-04 00:51:42) [POST]
+  Parameters: {"action"=>"create", "controller"=>"sessions"}
+
+
+Processing SessionsController#new (for 0.0.0.0 at 2010-11-04 00:51:42) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/login]
+  [4;35;1mUser Delete all (0.2ms)[0m   [0mDELETE FROM "users" WHERE 1=1[0m
+  [4;36;1mUser Delete all (0.1ms)[0m   [0;1mDELETE FROM "users" WHERE 1=1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."username" = 'foobar') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@example.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."username" = 'foobar') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@example.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.2ms)[0m   [0mINSERT INTO "users" ("created_at", "updated_at", "username", "password_salt", "password_hash", "email") VALUES('2010-11-04 02:51:42', '2010-11-04 02:51:42', 'foobar', 'd7b26f7a2269f93415c8ff129ae315edc9c88b84', '28dfb4aa77e6240f67def7d6307a951e8a7e0b8d', 'foo@example.com')[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."username" = 'foobar') LIMIT 1[0m
+  [4;35;1mUser Delete all (0.2ms)[0m   [0mDELETE FROM "users" WHERE 1=1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."username" = 'nonexisting') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email" = 'nonexisting') LIMIT 1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM "users" WHERE 1=1[0m
+  [4;35;1mUser Delete all (0.1ms)[0m   [0mDELETE FROM "users" WHERE 1=1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."username" = 'foo') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@bar.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."username" = 'foo') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@bar.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at", "username", "password_salt", "password_hash", "email") VALUES('2010-11-04 02:51:42', '2010-11-04 02:51:42', 'foo', 'f0a5cd18b5799fdfe6878a3dd90e6da5c937947d', 'b7dbdc8e7ecf03e8e9590154a63b217d2425f6cc', 'foo@bar.com')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."username" = 'foo@bar.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email" = 'foo@bar.com') LIMIT 1[0m
+  [4;35;1mUser Delete all (0.2ms)[0m   [0mDELETE FROM "users" WHERE 1=1[0m
+  [4;36;1mUser Delete all (0.1ms)[0m   [0;1mDELETE FROM "users" WHERE 1=1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."username" = 'foobar') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@example.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."username" = 'foobar') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@example.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.2ms)[0m   [0mINSERT INTO "users" ("created_at", "updated_at", "username", "password_salt", "password_hash", "email") VALUES('2010-11-04 02:51:42', '2010-11-04 02:51:42', 'foobar', 'be182da4fac83d8aa80520c182aad3a0ad388337', '6ce936817f8292f389d4261ed7b698ee0846d656', 'foo@example.com')[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."username" = 'foobar') LIMIT 1[0m
+  [4;35;1mUser Delete all (0.3ms)[0m   [0mDELETE FROM "users" WHERE 1=1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."username" = 'foo') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@example.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."username" = 'foo') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@example.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at", "username", "password_salt", "password_hash", "email") VALUES('2010-11-04 02:51:42', '2010-11-04 02:51:42', 'foo', 'c86e196574e1721a6c4ca66f9961aa91b034a7f9', 'c4a2d7a090ad7dc0ceb3c9c4f493bd92fc68d304', 'foo@example.com')[0m
+  [4;35;1mUser Delete all (0.2ms)[0m   [0mDELETE FROM "users" WHERE 1=1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."username" = 'foo') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@example.com') LIMIT 1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM "users" WHERE 1=1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."username" = 'foo') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@example.com') LIMIT 1[0m
+  [4;35;1mUser Delete all (0.2ms)[0m   [0mDELETE FROM "users" WHERE 1=1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@example.com') LIMIT 1[0m
+  [4;35;1mUser Delete all (0.2ms)[0m   [0mDELETE FROM "users" WHERE 1=1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."username" = 'foo') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@bar@example.com') LIMIT 1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM "users" WHERE 1=1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."username" = 'foo') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@example.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."username" = 'foo') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@example.com') LIMIT 1[0m
+  [4;35;1mUser Delete all (0.2ms)[0m   [0mDELETE FROM "users" WHERE 1=1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."username" = 'odd ^&(@)') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@example.com') LIMIT 1[0m
+  [4;36;1mUser Delete all (0.2ms)[0m   [0;1mDELETE FROM "users" WHERE 1=1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."username" = 'foo') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@example.com') LIMIT 1[0m
+  [4;35;1mUser Delete all (0.2ms)[0m   [0mDELETE FROM "users" WHERE 1=1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."username" = 'foo') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'bar@example.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."username" = 'foo') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'bar@example.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at", "username", "password_salt", "password_hash", "email") VALUES('2010-11-04 02:51:42', '2010-11-04 02:51:42', 'foo', '99026093b6e1b535581b2edd87243ebabc8a83e1', '1d945644804fea66436c9bfbe9861f005f9c8d7d', 'bar@example.com')[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."username" = 'foo') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'bar@example.com') LIMIT 1[0m
+  [4;35;1mUser Delete all (0.2ms)[0m   [0mDELETE FROM "users" WHERE 1=1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."username" = 'uniquename') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@example.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."username" = 'uniquename') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@example.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.1ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at", "username", "password_salt", "password_hash", "email") VALUES('2010-11-04 02:51:42', '2010-11-04 02:51:42', 'uniquename', 'bd7919f389c12e9776df7a44a7dd496f92d5d054', '38344eabfa1449de8911099ac69a4593d2363b80', 'foo@example.com')[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."username" = 'uniquename') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@example.com') LIMIT 1[0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-11-04 00:51:42) [POST]
+  Parameters: {"action"=>"create", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Completed in 12ms (View: 8, DB: 10) | 200 OK [http://test.host/users]
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-11-04 00:51:42) [POST]
+  Parameters: {"action"=>"create", "controller"=>"users"}
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO "users" ("created_at", "updated_at", "username", "password_salt", "password_hash", "email") VALUES('2010-11-04 02:51:42', '2010-11-04 02:51:42', NULL, NULL, NULL, NULL)[0m
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-11-04 00:51:42) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://test.host/signup]

@@ -1,0 +1,1 @@
+[ pid=24411 thr=140359555586384 file=ext/nginx/HelperAgent.cpp:568 time=2010-11-04 00:47:54.87 ]: Couldn't forward the HTTP response back to the HTTP client: It seems the user clicked on the 'Stop' button in his browser.
