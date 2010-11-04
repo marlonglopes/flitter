@@ -9,6 +9,8 @@
 require 'faker'
 require 'populator'
 
+User.destroy_all
+
 10.times do
 	user = User.new
 	user.username = Faker::Internet.user_name
