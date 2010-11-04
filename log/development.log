@@ -9901,3 +9901,753 @@ User 'carlee.sipes@upton.name' already exists in the user's friendship list.
   [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 90 AND (("friendships".user_id = 90))) [0m
   [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE (("friendships".user_id = 81)) [0m
   [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE (("friendships".user_id = 90)) [0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" [0m
+  [4;35;1mFlit Load (0.2ms)[0m   [0mSELECT * FROM "flits" WHERE ("flits".user_id = 81) [0m
+  [4;36;1mFlit Destroy (0.2ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 1[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 2[0m
+  [4;36;1mFlit Destroy (2.8ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 3[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 4[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 5[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 6[0m
+  [4;36;1mUser Destroy (0.1ms)[0m   [0;1mDELETE FROM "users" WHERE "id" = 81[0m
+  [4;35;1mFlit Load (0.2ms)[0m   [0mSELECT * FROM "flits" WHERE ("flits".user_id = 82) [0m
+  [4;36;1mFlit Destroy (0.1ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 7[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 8[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 9[0m
+  [4;35;1mFlit Destroy (0.1ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 10[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 11[0m
+  [4;35;1mUser Destroy (0.1ms)[0m   [0mDELETE FROM "users" WHERE "id" = 82[0m
+  [4;36;1mFlit Load (0.3ms)[0m   [0;1mSELECT * FROM "flits" WHERE ("flits".user_id = 83) [0m
+  [4;35;1mFlit Destroy (0.1ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 12[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 13[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 14[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 15[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 16[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 17[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 18[0m
+  [4;36;1mFlit Destroy (0.1ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 19[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 20[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 21[0m
+  [4;35;1mUser Destroy (0.1ms)[0m   [0mDELETE FROM "users" WHERE "id" = 83[0m
+  [4;36;1mFlit Load (0.2ms)[0m   [0;1mSELECT * FROM "flits" WHERE ("flits".user_id = 84) [0m
+  [4;35;1mFlit Destroy (0.1ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 22[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 23[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 24[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 25[0m
+  [4;35;1mFlit Destroy (0.1ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 26[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 27[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 28[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 29[0m
+  [4;35;1mUser Destroy (0.1ms)[0m   [0mDELETE FROM "users" WHERE "id" = 84[0m
+  [4;36;1mFlit Load (0.2ms)[0m   [0;1mSELECT * FROM "flits" WHERE ("flits".user_id = 85) [0m
+  [4;35;1mFlit Destroy (0.1ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 30[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 31[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 32[0m
+  [4;36;1mFlit Destroy (0.1ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 33[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 34[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 35[0m
+  [4;35;1mUser Destroy (0.1ms)[0m   [0mDELETE FROM "users" WHERE "id" = 85[0m
+  [4;36;1mFlit Load (0.3ms)[0m   [0;1mSELECT * FROM "flits" WHERE ("flits".user_id = 86) [0m
+  [4;35;1mFlit Destroy (0.1ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 36[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 37[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 38[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 39[0m
+  [4;35;1mFlit Destroy (0.1ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 40[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 41[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 42[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 43[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 44[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 45[0m
+  [4;35;1mUser Destroy (0.1ms)[0m   [0mDELETE FROM "users" WHERE "id" = 86[0m
+  [4;36;1mFlit Load (0.2ms)[0m   [0;1mSELECT * FROM "flits" WHERE ("flits".user_id = 87) [0m
+  [4;35;1mFlit Destroy (0.1ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 46[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 47[0m
+  [4;35;1mFlit Destroy (0.1ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 48[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 49[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 50[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 51[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 52[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 53[0m
+  [4;35;1mUser Destroy (0.1ms)[0m   [0mDELETE FROM "users" WHERE "id" = 87[0m
+  [4;36;1mFlit Load (0.2ms)[0m   [0;1mSELECT * FROM "flits" WHERE ("flits".user_id = 88) [0m
+  [4;35;1mFlit Destroy (0.1ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 54[0m
+  [4;36;1mFlit Destroy (0.1ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 55[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 56[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 57[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 58[0m
+  [4;36;1mUser Destroy (0.1ms)[0m   [0;1mDELETE FROM "users" WHERE "id" = 88[0m
+  [4;35;1mFlit Load (0.2ms)[0m   [0mSELECT * FROM "flits" WHERE ("flits".user_id = 89) [0m
+  [4;36;1mFlit Destroy (0.1ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 59[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 60[0m
+  [4;36;1mFlit Destroy (0.1ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 61[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 62[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 63[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 64[0m
+  [4;36;1mUser Destroy (0.1ms)[0m   [0;1mDELETE FROM "users" WHERE "id" = 89[0m
+  [4;35;1mFlit Load (0.3ms)[0m   [0mSELECT * FROM "flits" WHERE ("flits".user_id = 90) [0m
+  [4;36;1mFlit Destroy (0.1ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 65[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 66[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 67[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 68[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 69[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 70[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 71[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 72[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 73[0m
+  [4;35;1mUser Destroy (0.1ms)[0m   [0mDELETE FROM "users" WHERE "id" = 90[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."username" = 'leo.schimmel') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'victoria@heaney.biz') LIMIT 1[0m
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at", "username", "password_salt", "password_hash", "email") VALUES('2010-11-04 16:00:26', '2010-11-04 16:00:26', 'leo.schimmel', 'b2fd3ef64f04b7c5e42e7e1f1fc6d27da59f96e0', '3800d09e0a4e86b946c6e4db964809d760350c87', 'victoria@heaney.biz')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."username" = 'jazmyne_fisher') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'tyrique@sipes.info') LIMIT 1[0m
+  [4;35;1mUser Create (0.1ms)[0m   [0mINSERT INTO "users" ("created_at", "updated_at", "username", "password_salt", "password_hash", "email") VALUES('2010-11-04 16:00:26', '2010-11-04 16:00:26', 'jazmyne_fisher', 'b91952f8233435d3983f28a47e437b592b069e94', '045260da669e9ba060f01157ebd33ce0c6274d1d', 'tyrique@sipes.info')[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."username" = 'georgette') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'mason_cruickshank@cole.us') LIMIT 1[0m
+  [4;36;1mUser Create (0.1ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at", "username", "password_salt", "password_hash", "email") VALUES('2010-11-04 16:00:26', '2010-11-04 16:00:26', 'georgette', '4a96ae1026f5877163a0f79b85a043e2d8326860', '75adbdee7c954cb26b1625ca32ff371072b60a93', 'mason_cruickshank@cole.us')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."username" = 'giovanna') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'destin@bergnaum.uk') LIMIT 1[0m
+  [4;35;1mUser Create (0.1ms)[0m   [0mINSERT INTO "users" ("created_at", "updated_at", "username", "password_salt", "password_hash", "email") VALUES('2010-11-04 16:00:26', '2010-11-04 16:00:26', 'giovanna', 'fdc583e0b65eb36519d847902eaf108cadc45632', '842fc9561a4acf6c73a2d994bf777c0ed0440c44', 'destin@bergnaum.uk')[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."username" = 'cole_hammes') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'jennie_lang@johnston.us') LIMIT 1[0m
+  [4;36;1mUser Create (0.1ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at", "username", "password_salt", "password_hash", "email") VALUES('2010-11-04 16:00:26', '2010-11-04 16:00:26', 'cole_hammes', '30d95fecc71e64edfcae54fc07e25a7ba31b1252', '6b87861298bcd6c6478304f90b6a8e96416f423e', 'jennie_lang@johnston.us')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."username" = 'brycen') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'presley@spinka.biz') LIMIT 1[0m
+  [4;35;1mUser Create (0.1ms)[0m   [0mINSERT INTO "users" ("created_at", "updated_at", "username", "password_salt", "password_hash", "email") VALUES('2010-11-04 16:00:26', '2010-11-04 16:00:26', 'brycen', 'e9c6b654275efa3688e6c27b928658e2d37c600a', '550c05004d3381e0d56274888594be59e605fabf', 'presley@spinka.biz')[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."username" = 'berenice') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'maymie@mante.biz') LIMIT 1[0m
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at", "username", "password_salt", "password_hash", "email") VALUES('2010-11-04 16:00:26', '2010-11-04 16:00:26', 'berenice', '6bd47d9e0e4f0935faa18ca6bca4db4544849592', 'c9471011cd5e717439e23b7bdec599f359a32c1e', 'maymie@mante.biz')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."username" = 'abigayle_lubowitz') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'retta.kunze@grantmedhurst.ca') LIMIT 1[0m
+  [4;35;1mUser Create (0.1ms)[0m   [0mINSERT INTO "users" ("created_at", "updated_at", "username", "password_salt", "password_hash", "email") VALUES('2010-11-04 16:00:26', '2010-11-04 16:00:26', 'abigayle_lubowitz', '0d28dc6b07b4760964869d6c15a98ef951daef8b', '9d48bfa0843c65e0eb4744cd4950f4b450ded244', 'retta.kunze@grantmedhurst.ca')[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."username" = 'lavon') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'stefanie@hills.info') LIMIT 1[0m
+  [4;36;1mUser Create (0.1ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at", "username", "password_salt", "password_hash", "email") VALUES('2010-11-04 16:00:26', '2010-11-04 16:00:26', 'lavon', '4a7953c95205198f8ca60816b553f331613a1c59', '1c1cec00b6c8540fbfbdf50d1cf4e9754b4c9e32', 'stefanie@hills.info')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."username" = 'jonathan') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'lauretta_mraz@hartmann.us') LIMIT 1[0m
+  [4;35;1mUser Create (0.1ms)[0m   [0mINSERT INTO "users" ("created_at", "updated_at", "username", "password_salt", "password_hash", "email") VALUES('2010-11-04 16:00:26', '2010-11-04 16:00:26', 'jonathan', '2d6b9ab430161c0a42ac62eb25347f331a6f73f3', '8703ad0e255b58f79d4c93853cc593357ae2a706', 'lauretta_mraz@hartmann.us')[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" [0m
+  [4;35;1mFlit Last ID (0.1ms)[0m   [0mSELECT id FROM "flits" ORDER BY id DESC[0m
+  [4;36;1mFlit Populate (0.8ms)[0m   [0;1mINSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (1, 91, 'Maiores nobis et nulla quisquam autem repudiandae quas corporis.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (2, 91, 'Sed quod sed omnis dolorem debitis.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (3, 91, 'Molestiae rerum ratione sunt molestiae.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (4, 91, 'Nesciunt impedit officia enim magni at.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (5, 91, 'Iure nemo omnis incidunt velit occaecati maxime culpa illum.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (6, 91, 'Nemo aperiam suscipit ipsum sapiente qui quod.', '2010-11-04 13:00:26')[0m
+  [4;35;1mFlit Last ID (0.1ms)[0m   [0mSELECT id FROM "flits" ORDER BY id DESC[0m
+  [4;36;1mFlit Populate (0.8ms)[0m   [0;1mINSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (7, 92, 'Tempore consequatur sint in expedita.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (8, 92, 'Corporis voluptas explicabo sed.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (9, 92, 'Ratione et et ipsam laborum est corporis.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (10, 92, 'Sed minus iusto consequatur.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (11, 92, 'Commodi esse omnis ipsam est fuga iste libero numquam.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (12, 92, 'Aliquam enim fugit repudiandae esse eum facere mollitia reiciendis.', '2010-11-04 13:00:26')[0m
+  [4;35;1mFlit Last ID (0.2ms)[0m   [0mSELECT id FROM "flits" ORDER BY id DESC[0m
+  [4;36;1mFlit Populate (0.9ms)[0m   [0;1mINSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (13, 93, 'Ut delectus non occaecati incidunt et voluptatum nulla.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (14, 93, 'Ratione dolore dolor sequi et cum dolorum quam.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (15, 93, 'Nisi beatae voluptate vel.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (16, 93, 'Nam est illum porro.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (17, 93, 'Perspiciatis reprehenderit aliquid magni.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (18, 93, 'Laborum sint adipisci ullam eius labore.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (19, 93, 'Et aut quis rerum atque non animi dignissimos.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (20, 93, 'Assumenda quaerat eum suscipit rerum saepe aspernatur et.', '2010-11-04 13:00:26')[0m
+  [4;35;1mFlit Last ID (0.2ms)[0m   [0mSELECT id FROM "flits" ORDER BY id DESC[0m
+  [4;36;1mFlit Populate (0.8ms)[0m   [0;1mINSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (21, 94, 'Numquam eum sint autem sit laborum consequatur eligendi.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (22, 94, 'Ipsam rerum laboriosam molestiae consequuntur in.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (23, 94, 'Eius repudiandae rerum sapiente tempore laboriosam et quaerat aut.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (24, 94, 'Neque sit dolor ut itaque unde nesciunt eligendi veritatis.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (25, 94, 'Pariatur aut rerum aut aspernatur.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (26, 94, 'Velit nam fugiat eius.', '2010-11-04 13:00:26')[0m
+  [4;35;1mFlit Last ID (0.3ms)[0m   [0mSELECT id FROM "flits" ORDER BY id DESC[0m
+  [4;36;1mFlit Populate (1.0ms)[0m   [0;1mINSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (27, 95, 'Ducimus ut iure animi.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (28, 95, 'Nulla voluptates quibusdam sint adipisci.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (29, 95, 'Nihil non facilis non rerum aut eum.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (30, 95, 'Expedita in amet quisquam ex perspiciatis suscipit.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (31, 95, 'Error est vero atque non est autem voluptatem nihil.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (32, 95, 'Sed quia et sed ut aut minima.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (33, 95, 'Qui aut id aperiam perspiciatis.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (34, 95, 'Eligendi possimus officia facilis odio unde vitae incidunt.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (35, 95, 'Dignissimos rerum reiciendis et in neque minus.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (36, 95, 'Qui ipsam laboriosam labore.', '2010-11-04 13:00:26')[0m
+  [4;35;1mFlit Last ID (0.4ms)[0m   [0mSELECT id FROM "flits" ORDER BY id DESC[0m
+  [4;36;1mFlit Populate (1.0ms)[0m   [0;1mINSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (37, 96, 'Ratione est quia labore quo et molestiae eum.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (38, 96, 'Iste qui et voluptate et sequi consequatur.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (39, 96, 'Consequuntur possimus autem quo.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (40, 96, 'Quo labore ratione omnis.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (41, 96, 'Quae omnis quisquam quam repudiandae repellendus ratione in.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (42, 96, 'Ad quia consequatur veritatis.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (43, 96, 'Necessitatibus tempore molestiae quisquam aut praesentium incidunt.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (44, 96, 'Eum et minima ipsam.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (45, 96, 'In enim illum ipsum ea impedit exercitationem labore eos.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (46, 96, 'Velit itaque nihil est molestiae.', '2010-11-04 13:00:26')[0m
+  [4;35;1mFlit Last ID (0.5ms)[0m   [0mSELECT id FROM "flits" ORDER BY id DESC[0m
+  [4;36;1mFlit Populate (1.0ms)[0m   [0;1mINSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (47, 97, 'Culpa nulla quae natus.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (48, 97, 'Laborum ut eaque enim.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (49, 97, 'Sunt et qui ipsum et quisquam maiores sapiente.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (50, 97, 'Ea voluptatibus ullam ut.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (51, 97, 'Vitae provident delectus nam impedit porro ut.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (52, 97, 'Porro accusantium aut neque repudiandae iste molestiae delectus vel.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (53, 97, 'Sunt consectetur qui asperiores iusto quam nisi amet.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (54, 97, 'Dolores tempora dolore quisquam fugit illo vitae.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (55, 97, 'Id facere labore quia ex reprehenderit ut sit necessitatibus.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (56, 97, 'Ab quidem possimus qui.', '2010-11-04 13:00:26')[0m
+  [4;35;1mFlit Last ID (0.6ms)[0m   [0mSELECT id FROM "flits" ORDER BY id DESC[0m
+  [4;36;1mFlit Populate (0.8ms)[0m   [0;1mINSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (57, 98, 'Rem laboriosam in asperiores tempora culpa voluptatibus perferendis quo.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (58, 98, 'Quis in voluptas vel at nostrum.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (59, 98, 'Non sint tempora reiciendis quos quia natus.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (60, 98, 'Hic non non atque cumque blanditiis repellat molestiae quod.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (61, 98, 'Aliquid assumenda dolorem tempora eum.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (62, 98, 'Cum ratione sapiente rerum est.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (63, 98, 'Quia unde omnis itaque voluptatum fuga id.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (64, 98, 'Corporis itaque officia mollitia occaecati dolorem.', '2010-11-04 13:00:26')[0m
+  [4;35;1mFlit Last ID (0.7ms)[0m   [0mSELECT id FROM "flits" ORDER BY id DESC[0m
+  [4;36;1mFlit Populate (0.9ms)[0m   [0;1mINSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (65, 99, 'Qui officia quo quibusdam.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (66, 99, 'Beatae eos quae ipsa adipisci.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (67, 99, 'Dolor sit consequuntur ipsa harum optio.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (68, 99, 'Adipisci et quidem accusamus maxime aperiam.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (69, 99, 'Fugiat est ipsum occaecati iste quas.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (70, 99, 'Aut ex praesentium voluptate magni voluptas sit libero natus.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (71, 99, 'Velit consequatur excepturi laboriosam quae quibusdam voluptas inventore.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (72, 99, 'Mollitia corporis nihil dolorum similique alias.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (73, 99, 'Quos quod porro sed.', '2010-11-04 13:00:26')[0m
+  [4;35;1mFlit Last ID (0.7ms)[0m   [0mSELECT id FROM "flits" ORDER BY id DESC[0m
+  [4;36;1mFlit Populate (0.8ms)[0m   [0;1mINSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (74, 100, 'Omnis dolore laboriosam assumenda quam aliquid hic corporis sed.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (75, 100, 'Omnis numquam sapiente voluptatem autem.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (76, 100, 'Dolore ut dignissimos corrupti nemo omnis accusamus est quia.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (77, 100, 'Ad excepturi commodi dolorem optio.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (78, 100, 'Labore et consectetur nihil dolorum est.', '2010-11-04 13:00:26');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (79, 100, 'Minus perspiciatis nemo iusto quia.', '2010-11-04 13:00:26')[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" [0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" [0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" [0m
+  [4;35;1mFlit Load (0.2ms)[0m   [0mSELECT * FROM "flits" WHERE ("flits".user_id = 91) [0m
+  [4;36;1mFlit Destroy (0.2ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 1[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 2[0m
+  [4;36;1mFlit Destroy (2.8ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 3[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 4[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 5[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 6[0m
+  [4;36;1mUser Destroy (0.1ms)[0m   [0;1mDELETE FROM "users" WHERE "id" = 91[0m
+  [4;35;1mFlit Load (0.2ms)[0m   [0mSELECT * FROM "flits" WHERE ("flits".user_id = 92) [0m
+  [4;36;1mFlit Destroy (0.1ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 7[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 8[0m
+  [4;36;1mFlit Destroy (0.1ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 9[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 10[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 11[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 12[0m
+  [4;36;1mUser Destroy (0.1ms)[0m   [0;1mDELETE FROM "users" WHERE "id" = 92[0m
+  [4;35;1mFlit Load (0.2ms)[0m   [0mSELECT * FROM "flits" WHERE ("flits".user_id = 93) [0m
+  [4;36;1mFlit Destroy (0.1ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 13[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 14[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 15[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 16[0m
+  [4;36;1mFlit Destroy (0.1ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 17[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 18[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 19[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 20[0m
+  [4;36;1mUser Destroy (0.1ms)[0m   [0;1mDELETE FROM "users" WHERE "id" = 93[0m
+  [4;35;1mFlit Load (0.2ms)[0m   [0mSELECT * FROM "flits" WHERE ("flits".user_id = 94) [0m
+  [4;36;1mFlit Destroy (0.1ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 21[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 22[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 23[0m
+  [4;35;1mFlit Destroy (0.1ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 24[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 25[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 26[0m
+  [4;36;1mUser Destroy (0.1ms)[0m   [0;1mDELETE FROM "users" WHERE "id" = 94[0m
+  [4;35;1mFlit Load (0.3ms)[0m   [0mSELECT * FROM "flits" WHERE ("flits".user_id = 95) [0m
+  [4;36;1mFlit Destroy (0.1ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 27[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 28[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 29[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 30[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 31[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 32[0m
+  [4;36;1mFlit Destroy (0.1ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 33[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 34[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 35[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 36[0m
+  [4;36;1mUser Destroy (0.1ms)[0m   [0;1mDELETE FROM "users" WHERE "id" = 95[0m
+  [4;35;1mFlit Load (0.3ms)[0m   [0mSELECT * FROM "flits" WHERE ("flits".user_id = 96) [0m
+  [4;36;1mFlit Destroy (0.1ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 37[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 38[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 39[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 40[0m
+  [4;36;1mFlit Destroy (0.1ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 41[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 42[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 43[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 44[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 45[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 46[0m
+  [4;36;1mUser Destroy (0.1ms)[0m   [0;1mDELETE FROM "users" WHERE "id" = 96[0m
+  [4;35;1mFlit Load (0.3ms)[0m   [0mSELECT * FROM "flits" WHERE ("flits".user_id = 97) [0m
+  [4;36;1mFlit Destroy (0.1ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 47[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 48[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 49[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 50[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 51[0m
+  [4;35;1mFlit Destroy (0.1ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 52[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 53[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 54[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 55[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 56[0m
+  [4;36;1mUser Destroy (0.1ms)[0m   [0;1mDELETE FROM "users" WHERE "id" = 97[0m
+  [4;35;1mFlit Load (0.2ms)[0m   [0mSELECT * FROM "flits" WHERE ("flits".user_id = 98) [0m
+  [4;36;1mFlit Destroy (0.1ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 57[0m
+  [4;35;1mFlit Destroy (0.1ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 58[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 59[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 60[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 61[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 62[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 63[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 64[0m
+  [4;36;1mUser Destroy (0.1ms)[0m   [0;1mDELETE FROM "users" WHERE "id" = 98[0m
+  [4;35;1mFlit Load (0.2ms)[0m   [0mSELECT * FROM "flits" WHERE ("flits".user_id = 99) [0m
+  [4;36;1mFlit Destroy (0.1ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 65[0m
+  [4;35;1mFlit Destroy (0.1ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 66[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 67[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 68[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 69[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 70[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 71[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 72[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 73[0m
+  [4;35;1mUser Destroy (0.1ms)[0m   [0mDELETE FROM "users" WHERE "id" = 99[0m
+  [4;36;1mFlit Load (0.2ms)[0m   [0;1mSELECT * FROM "flits" WHERE ("flits".user_id = 100) [0m
+  [4;35;1mFlit Destroy (0.1ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 74[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 75[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 76[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 77[0m
+  [4;35;1mFlit Destroy (0.0ms)[0m   [0mDELETE FROM "flits" WHERE "id" = 78[0m
+  [4;36;1mFlit Destroy (0.0ms)[0m   [0;1mDELETE FROM "flits" WHERE "id" = 79[0m
+  [4;35;1mUser Destroy (0.1ms)[0m   [0mDELETE FROM "users" WHERE "id" = 100[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."username" = 'mozell.watsica') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'lori@haag.name') LIMIT 1[0m
+  [4;36;1mUser Create (0.1ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at", "username", "password_salt", "password_hash", "email") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 'mozell.watsica', '5ebcef464dca9a1b39c3100c6f756245389a6013', '5ca60b20a3b4d6f613eee0561324fb9569a90d8f', 'lori@haag.name')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."username" = 'gilda_ziemann') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'lolita.tillman@rice.co.uk') LIMIT 1[0m
+  [4;35;1mUser Create (0.1ms)[0m   [0mINSERT INTO "users" ("created_at", "updated_at", "username", "password_salt", "password_hash", "email") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 'gilda_ziemann', '19ee6135d26edbe82484e2e543bf13ea31c8e4e4', 'a7cbdbe4c667959dc529d932f4f8623bc7fea577', 'lolita.tillman@rice.co.uk')[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."username" = 'oda') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'rae@larkinlittel.us') LIMIT 1[0m
+  [4;36;1mUser Create (0.1ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at", "username", "password_salt", "password_hash", "email") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 'oda', '667d93e6682dd9259c57dc05619318d5ca15040b', 'f4fed8fbfc1c34833c2d4d3d3c2d51e71c40261a', 'rae@larkinlittel.us')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."username" = 'hassie_grimes') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'hollis@rosenbaum.ca') LIMIT 1[0m
+  [4;35;1mUser Create (0.1ms)[0m   [0mINSERT INTO "users" ("created_at", "updated_at", "username", "password_salt", "password_hash", "email") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 'hassie_grimes', 'b8c4190415b3ade78a2cb69e17817fa1ba9931d0', '43980e6a9abd3b44718f0709dc1f24ef14a88e32', 'hollis@rosenbaum.ca')[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."username" = 'dejuan') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'juana@oberbrunner.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.1ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at", "username", "password_salt", "password_hash", "email") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 'dejuan', 'd43e643ac0233bd41da8fc8fa7bbe8e01861ab1d', '4cd9dfe5d6943a32ccd4480f4864c6aaaa9e9bc3', 'juana@oberbrunner.com')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."username" = 'sarai') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'axel_howe@schroeder.uk') LIMIT 1[0m
+  [4;35;1mUser Create (0.1ms)[0m   [0mINSERT INTO "users" ("created_at", "updated_at", "username", "password_salt", "password_hash", "email") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 'sarai', 'a6c25e96db2fa9190b3165aaa922f9466e546eff', '8a6b80eefc3e2656f0a0fa406d73b347a9ade255', 'axel_howe@schroeder.uk')[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."username" = 'lee') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'bethany@keebler.uk') LIMIT 1[0m
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at", "username", "password_salt", "password_hash", "email") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 'lee', 'aacef62ef5d0393df543291047295a732fa22795', 'd0a4b6ce1e35c8b140ea4eb56815da9dcdf0e97f', 'bethany@keebler.uk')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."username" = 'ethyl.olson') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'clarissa.volkman@bogan.biz') LIMIT 1[0m
+  [4;35;1mUser Create (0.1ms)[0m   [0mINSERT INTO "users" ("created_at", "updated_at", "username", "password_salt", "password_hash", "email") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 'ethyl.olson', '86243aeef26f663336f320d8fc2ceaa62266c552', '58cd4305ddb313ead5c290097be0964f4ff259e5', 'clarissa.volkman@bogan.biz')[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."username" = 'geraldine') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'eula@ryankunde.name') LIMIT 1[0m
+  [4;36;1mUser Create (0.1ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at", "username", "password_salt", "password_hash", "email") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 'geraldine', '08ff2c4ea8ea9426dae16232e5d8a1567bc3ad2e', '5751feb4431b664343b78e74a3085644eee6b99c', 'eula@ryankunde.name')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."username" = 'alexis') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'caden@bogisich.us') LIMIT 1[0m
+  [4;35;1mUser Create (0.1ms)[0m   [0mINSERT INTO "users" ("created_at", "updated_at", "username", "password_salt", "password_hash", "email") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 'alexis', '7cd3b2394b2565ca15125906973c6cf1d30061e1', '5ad2c8844098fee721e0ee577686ae4856ae54c2', 'caden@bogisich.us')[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" [0m
+  [4;35;1mFlit Last ID (0.1ms)[0m   [0mSELECT id FROM "flits" ORDER BY id DESC[0m
+  [4;36;1mFlit Populate (0.7ms)[0m   [0;1mINSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (1, 101, 'Cupiditate est perferendis maiores ipsa quod occaecati sunt.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (2, 101, 'Dolorem delectus dolore consectetur architecto neque placeat vel ea.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (3, 101, 'Commodi facere et officiis optio corporis.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (4, 101, 'Earum voluptatem adipisci odit voluptas illo.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (5, 101, 'Sit omnis aut earum laboriosam consequatur.', '2010-11-04 13:02:19')[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 101 AND (("friendships".user_id = 101))) [0m
+  [4;36;1mFriendship Load (0.1ms)[0m   [0;1mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 101 AND "friendships".user_id = 101) LIMIT 1[0m
+  [4;35;1mFriendship Create (0.1ms)[0m   [0mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 101, 101)[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 101 AND (("friendships".user_id = 101))) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 101 AND (("friendships".user_id = 101))) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 108 AND (("friendships".user_id = 101))) [0m
+  [4;35;1mFriendship Load (0.1ms)[0m   [0mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 108 AND "friendships".user_id = 101) LIMIT 1[0m
+  [4;36;1mFriendship Create (0.1ms)[0m   [0;1mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 101, 108)[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 101 AND (("friendships".user_id = 108))) [0m
+  [4;36;1mFriendship Load (0.1ms)[0m   [0;1mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 101 AND "friendships".user_id = 108) LIMIT 1[0m
+  [4;35;1mFriendship Create (0.1ms)[0m   [0mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 108, 101)[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 108 AND (("friendships".user_id = 101))) [0m
+  [4;35;1mFlit Last ID (0.1ms)[0m   [0mSELECT id FROM "flits" ORDER BY id DESC[0m
+  [4;36;1mFlit Populate (0.7ms)[0m   [0;1mINSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (6, 102, 'Est vel quas omnis eveniet.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (7, 102, 'Minus modi reprehenderit aut fuga.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (8, 102, 'Cupiditate excepturi accusamus id earum.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (9, 102, 'Aut magnam porro architecto non.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (10, 102, 'Sunt qui aut iure sit numquam asperiores voluptates.', '2010-11-04 13:02:19')[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 104 AND (("friendships".user_id = 102))) [0m
+  [4;36;1mFriendship Load (0.1ms)[0m   [0;1mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 104 AND "friendships".user_id = 102) LIMIT 1[0m
+  [4;35;1mFriendship Create (0.1ms)[0m   [0mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 102, 104)[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 102 AND (("friendships".user_id = 104))) [0m
+  [4;35;1mFriendship Load (0.1ms)[0m   [0mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 102 AND "friendships".user_id = 104) LIMIT 1[0m
+  [4;36;1mFriendship Create (0.1ms)[0m   [0;1mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 104, 102)[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 104 AND (("friendships".user_id = 102))) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 106 AND (("friendships".user_id = 102))) [0m
+  [4;35;1mFriendship Load (0.1ms)[0m   [0mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 106 AND "friendships".user_id = 102) LIMIT 1[0m
+  [4;36;1mFriendship Create (0.1ms)[0m   [0;1mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 102, 106)[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 102 AND (("friendships".user_id = 106))) [0m
+  [4;36;1mFriendship Load (0.1ms)[0m   [0;1mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 102 AND "friendships".user_id = 106) LIMIT 1[0m
+  [4;35;1mFriendship Create (0.1ms)[0m   [0mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 106, 102)[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 106 AND (("friendships".user_id = 102))) [0m
+  [4;35;1mUser Load (3.9ms)[0m   [0mSELECT * FROM "users" [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 108 AND (("friendships".user_id = 102))) [0m
+  [4;36;1mFriendship Load (0.1ms)[0m   [0;1mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 108 AND "friendships".user_id = 102) LIMIT 1[0m
+  [4;35;1mFriendship Create (0.1ms)[0m   [0mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 102, 108)[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 102 AND (("friendships".user_id = 108))) [0m
+  [4;35;1mFriendship Load (0.1ms)[0m   [0mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 102 AND "friendships".user_id = 108) LIMIT 1[0m
+  [4;36;1mFriendship Create (0.1ms)[0m   [0;1mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 108, 102)[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 108 AND (("friendships".user_id = 102))) [0m
+  [4;36;1mFlit Last ID (0.2ms)[0m   [0;1mSELECT id FROM "flits" ORDER BY id DESC[0m
+  [4;35;1mFlit Populate (0.9ms)[0m   [0mINSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (11, 103, 'Nam enim dignissimos vel sit voluptatem maiores.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (12, 103, 'Sunt quis ipsam dolorem ducimus harum voluptate.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (13, 103, 'Accusantium voluptatum ea molestias libero.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (14, 103, 'Omnis unde quaerat laudantium voluptatem eligendi rerum totam.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (15, 103, 'Laboriosam saepe soluta tempora id quaerat.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (16, 103, 'Rerum animi laboriosam doloremque ducimus ut.', '2010-11-04 13:02:19')[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 103 AND (("friendships".user_id = 103))) [0m
+  [4;35;1mFriendship Load (0.1ms)[0m   [0mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 103 AND "friendships".user_id = 103) LIMIT 1[0m
+  [4;36;1mFriendship Create (0.1ms)[0m   [0;1mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 103, 103)[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 103 AND (("friendships".user_id = 103))) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 104 AND (("friendships".user_id = 103))) [0m
+  [4;35;1mFriendship Load (0.1ms)[0m   [0mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 104 AND "friendships".user_id = 103) LIMIT 1[0m
+  [4;36;1mFriendship Create (0.2ms)[0m   [0;1mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 103, 104)[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 103 AND (("friendships".user_id = 104))) [0m
+  [4;36;1mFriendship Load (0.1ms)[0m   [0;1mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 103 AND "friendships".user_id = 104) LIMIT 1[0m
+  [4;35;1mFriendship Create (0.1ms)[0m   [0mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 104, 103)[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 104 AND (("friendships".user_id = 103))) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 103 AND (("friendships".user_id = 103))) [0m
+  [4;36;1mFlit Last ID (0.2ms)[0m   [0;1mSELECT id FROM "flits" ORDER BY id DESC[0m
+  [4;35;1mFlit Populate (0.9ms)[0m   [0mINSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (17, 104, 'Voluptatum fugit repellat quae dolore molestias aut.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (18, 104, 'Officiis qui corrupti ad corporis.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (19, 104, 'Est reiciendis quo consequatur omnis dolor in.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (20, 104, 'Ea maxime reprehenderit dolor incidunt necessitatibus quaerat illo animi.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (21, 104, 'Et aut magni accusamus.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (22, 104, 'At et et delectus reiciendis nam non quod.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (23, 104, 'Et qui reprehenderit molestiae eius et.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (24, 104, 'Sed consectetur quis quidem alias quisquam voluptas aut est.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (25, 104, 'Possimus quis quia odio tempora vero quia atque aspernatur.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (26, 104, 'Harum quasi ratione optio maxime.', '2010-11-04 13:02:19')[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 101 AND (("friendships".user_id = 104))) [0m
+  [4;35;1mFriendship Load (0.1ms)[0m   [0mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 101 AND "friendships".user_id = 104) LIMIT 1[0m
+  [4;36;1mFriendship Create (0.1ms)[0m   [0;1mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 104, 101)[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 104 AND (("friendships".user_id = 101))) [0m
+  [4;36;1mFriendship Load (0.1ms)[0m   [0;1mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 104 AND "friendships".user_id = 101) LIMIT 1[0m
+  [4;35;1mFriendship Create (0.1ms)[0m   [0mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 101, 104)[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 101 AND (("friendships".user_id = 104))) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 101 AND (("friendships".user_id = 104))) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 108 AND (("friendships".user_id = 104))) [0m
+  [4;35;1mFriendship Load (0.1ms)[0m   [0mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 108 AND "friendships".user_id = 104) LIMIT 1[0m
+  [4;36;1mFriendship Create (0.1ms)[0m   [0;1mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 104, 108)[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 104 AND (("friendships".user_id = 108))) [0m
+  [4;36;1mFriendship Load (0.1ms)[0m   [0;1mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 104 AND "friendships".user_id = 108) LIMIT 1[0m
+  [4;35;1mFriendship Create (0.1ms)[0m   [0mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 108, 104)[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 108 AND (("friendships".user_id = 104))) [0m
+  [4;35;1mFlit Last ID (0.3ms)[0m   [0mSELECT id FROM "flits" ORDER BY id DESC[0m
+  [4;36;1mFlit Populate (0.9ms)[0m   [0;1mINSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (27, 105, 'Explicabo sed voluptas ut aut neque delectus qui quod.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (28, 105, 'Iusto occaecati provident tempore error.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (29, 105, 'Fugit voluptatem voluptates dolorem.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (30, 105, 'Repellendus nobis eligendi dolores et accusantium ab quis.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (31, 105, 'Ab voluptatem saepe in.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (32, 105, 'Sapiente minima veniam aliquam odit.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (33, 105, 'Minus reiciendis cupiditate sit consectetur.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (34, 105, 'Rerum quae nisi ea.', '2010-11-04 13:02:19')[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 109 AND (("friendships".user_id = 105))) [0m
+  [4;36;1mFriendship Load (0.1ms)[0m   [0;1mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 109 AND "friendships".user_id = 105) LIMIT 1[0m
+  [4;35;1mFriendship Create (0.1ms)[0m   [0mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 105, 109)[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 105 AND (("friendships".user_id = 109))) [0m
+  [4;35;1mFriendship Load (0.1ms)[0m   [0mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 105 AND "friendships".user_id = 109) LIMIT 1[0m
+  [4;36;1mFriendship Create (0.1ms)[0m   [0;1mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 109, 105)[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 109 AND (("friendships".user_id = 105))) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 110 AND (("friendships".user_id = 105))) [0m
+  [4;35;1mFriendship Load (0.1ms)[0m   [0mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 110 AND "friendships".user_id = 105) LIMIT 1[0m
+  [4;36;1mFriendship Create (0.1ms)[0m   [0;1mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 105, 110)[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 105 AND (("friendships".user_id = 110))) [0m
+  [4;36;1mFriendship Load (0.1ms)[0m   [0;1mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 105 AND "friendships".user_id = 110) LIMIT 1[0m
+  [4;35;1mFriendship Create (0.1ms)[0m   [0mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 110, 105)[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 110 AND (("friendships".user_id = 105))) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 104 AND (("friendships".user_id = 105))) [0m
+  [4;36;1mFriendship Load (0.1ms)[0m   [0;1mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 104 AND "friendships".user_id = 105) LIMIT 1[0m
+  [4;35;1mFriendship Create (0.1ms)[0m   [0mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 105, 104)[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 105 AND (("friendships".user_id = 104))) [0m
+  [4;35;1mFriendship Load (0.1ms)[0m   [0mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 105 AND "friendships".user_id = 104) LIMIT 1[0m
+  [4;36;1mFriendship Create (0.1ms)[0m   [0;1mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 104, 105)[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 104 AND (("friendships".user_id = 105))) [0m
+  [4;36;1mFlit Last ID (0.4ms)[0m   [0;1mSELECT id FROM "flits" ORDER BY id DESC[0m
+  [4;35;1mFlit Populate (0.9ms)[0m   [0mINSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (35, 106, 'Sed veritatis aspernatur voluptas.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (36, 106, 'Et veniam aut quia aliquam a dolores.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (37, 106, 'Debitis sit sunt expedita est suscipit pariatur rerum perspiciatis.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (38, 106, 'Qui neque nisi ab quisquam dolorum.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (39, 106, 'Quia ex dolores et quia reiciendis explicabo.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (40, 106, 'Enim qui aperiam veniam.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (41, 106, 'Non ipsam ipsa impedit velit.', '2010-11-04 13:02:19')[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 103 AND (("friendships".user_id = 106))) [0m
+  [4;35;1mFriendship Load (0.1ms)[0m   [0mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 103 AND "friendships".user_id = 106) LIMIT 1[0m
+  [4;36;1mFriendship Create (0.1ms)[0m   [0;1mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 106, 103)[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 106 AND (("friendships".user_id = 103))) [0m
+  [4;36;1mFriendship Load (0.1ms)[0m   [0;1mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 106 AND "friendships".user_id = 103) LIMIT 1[0m
+  [4;35;1mFriendship Create (0.1ms)[0m   [0mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 103, 106)[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 103 AND (("friendships".user_id = 106))) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 104 AND (("friendships".user_id = 106))) [0m
+  [4;36;1mFriendship Load (0.1ms)[0m   [0;1mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 104 AND "friendships".user_id = 106) LIMIT 1[0m
+  [4;35;1mFriendship Create (0.1ms)[0m   [0mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 106, 104)[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 106 AND (("friendships".user_id = 104))) [0m
+  [4;35;1mFriendship Load (0.1ms)[0m   [0mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 106 AND "friendships".user_id = 104) LIMIT 1[0m
+  [4;36;1mFriendship Create (0.1ms)[0m   [0;1mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 104, 106)[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 104 AND (("friendships".user_id = 106))) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 104 AND (("friendships".user_id = 106))) [0m
+  [4;35;1mFlit Last ID (0.4ms)[0m   [0mSELECT id FROM "flits" ORDER BY id DESC[0m
+  [4;36;1mFlit Populate (0.8ms)[0m   [0;1mINSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (42, 107, 'Aut eum itaque soluta dolores accusantium.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (43, 107, 'Corporis ipsum aspernatur voluptas incidunt perspiciatis qui.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (44, 107, 'Ipsa omnis voluptatem voluptas quia qui illum quod.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (45, 107, 'Et delectus totam aut perspiciatis ducimus mollitia.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (46, 107, 'Ut autem voluptas error dolores rerum.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (47, 107, 'Rerum vero asperiores aliquam dolorem dignissimos.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (48, 107, 'Consequuntur labore culpa rerum est est.', '2010-11-04 13:02:19')[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 104 AND (("friendships".user_id = 107))) [0m
+  [4;36;1mFriendship Load (0.1ms)[0m   [0;1mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 104 AND "friendships".user_id = 107) LIMIT 1[0m
+  [4;35;1mFriendship Create (0.1ms)[0m   [0mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 107, 104)[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 107 AND (("friendships".user_id = 104))) [0m
+  [4;35;1mFriendship Load (0.1ms)[0m   [0mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 107 AND "friendships".user_id = 104) LIMIT 1[0m
+  [4;36;1mFriendship Create (0.1ms)[0m   [0;1mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 104, 107)[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 104 AND (("friendships".user_id = 107))) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 102 AND (("friendships".user_id = 107))) [0m
+  [4;35;1mFriendship Load (0.1ms)[0m   [0mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 102 AND "friendships".user_id = 107) LIMIT 1[0m
+  [4;36;1mFriendship Create (0.1ms)[0m   [0;1mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 107, 102)[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 107 AND (("friendships".user_id = 102))) [0m
+  [4;36;1mFriendship Load (0.1ms)[0m   [0;1mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 107 AND "friendships".user_id = 102) LIMIT 1[0m
+  [4;35;1mFriendship Create (0.1ms)[0m   [0mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 102, 107)[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 102 AND (("friendships".user_id = 107))) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 110 AND (("friendships".user_id = 107))) [0m
+  [4;36;1mFriendship Load (0.1ms)[0m   [0;1mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 110 AND "friendships".user_id = 107) LIMIT 1[0m
+  [4;35;1mFriendship Create (0.1ms)[0m   [0mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 107, 110)[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 107 AND (("friendships".user_id = 110))) [0m
+  [4;35;1mFriendship Load (0.1ms)[0m   [0mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 107 AND "friendships".user_id = 110) LIMIT 1[0m
+  [4;36;1mFriendship Create (0.1ms)[0m   [0;1mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 110, 107)[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 110 AND (("friendships".user_id = 107))) [0m
+  [4;36;1mFlit Last ID (0.5ms)[0m   [0;1mSELECT id FROM "flits" ORDER BY id DESC[0m
+  [4;35;1mFlit Populate (0.9ms)[0m   [0mINSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (49, 108, 'Delectus facilis ab quisquam aut expedita quibusdam.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (50, 108, 'Nesciunt sequi sint id unde.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (51, 108, 'Blanditiis exercitationem quae commodi iste tenetur sapiente.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (52, 108, 'Aut ea recusandae similique porro harum doloribus mollitia.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (53, 108, 'Officiis qui consequatur aut ducimus quas.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (54, 108, 'Aliquam nobis et repellendus velit debitis.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (55, 108, 'Odio vel et eum et voluptatem fuga.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (56, 108, 'Optio deleniti harum nesciunt laboriosam doloribus qui voluptatem.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (57, 108, 'Non distinctio ut provident ut adipisci deserunt aut molestias.', '2010-11-04 13:02:19')[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 106 AND (("friendships".user_id = 108))) [0m
+  [4;35;1mFriendship Load (0.1ms)[0m   [0mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 106 AND "friendships".user_id = 108) LIMIT 1[0m
+  [4;36;1mFriendship Create (0.1ms)[0m   [0;1mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 108, 106)[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 108 AND (("friendships".user_id = 106))) [0m
+  [4;36;1mFriendship Load (0.1ms)[0m   [0;1mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 108 AND "friendships".user_id = 106) LIMIT 1[0m
+  [4;35;1mFriendship Create (0.1ms)[0m   [0mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 106, 108)[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 106 AND (("friendships".user_id = 108))) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 103 AND (("friendships".user_id = 108))) [0m
+  [4;36;1mFriendship Load (0.1ms)[0m   [0;1mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 103 AND "friendships".user_id = 108) LIMIT 1[0m
+  [4;35;1mFriendship Create (0.1ms)[0m   [0mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 108, 103)[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 108 AND (("friendships".user_id = 103))) [0m
+  [4;35;1mFriendship Load (0.1ms)[0m   [0mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 108 AND "friendships".user_id = 103) LIMIT 1[0m
+  [4;36;1mFriendship Create (0.1ms)[0m   [0;1mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 103, 108)[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 103 AND (("friendships".user_id = 108))) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 104 AND (("friendships".user_id = 108))) [0m
+  [4;35;1mFlit Last ID (0.5ms)[0m   [0mSELECT id FROM "flits" ORDER BY id DESC[0m
+  [4;36;1mFlit Populate (0.8ms)[0m   [0;1mINSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (58, 109, 'Impedit maiores debitis magni eius at aut odio architecto.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (59, 109, 'Alias reprehenderit optio ut cumque et et.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (60, 109, 'Autem repudiandae doloremque tempora nobis ducimus delectus consequatur ea.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (61, 109, 'Minus porro temporibus veniam at.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (62, 109, 'Sit voluptas nostrum voluptatem optio dolor quo.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (63, 109, 'Optio eveniet voluptates nobis.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (64, 109, 'Modi ipsum consequatur omnis similique.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (65, 109, 'Nulla et iusto rerum error repudiandae qui ex.', '2010-11-04 13:02:19')[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 103 AND (("friendships".user_id = 109))) [0m
+  [4;36;1mFriendship Load (0.1ms)[0m   [0;1mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 103 AND "friendships".user_id = 109) LIMIT 1[0m
+  [4;35;1mFriendship Create (0.1ms)[0m   [0mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 109, 103)[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 109 AND (("friendships".user_id = 103))) [0m
+  [4;35;1mFriendship Load (0.1ms)[0m   [0mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 109 AND "friendships".user_id = 103) LIMIT 1[0m
+  [4;36;1mFriendship Create (0.1ms)[0m   [0;1mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 103, 109)[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 103 AND (("friendships".user_id = 109))) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 107 AND (("friendships".user_id = 109))) [0m
+  [4;35;1mFriendship Load (0.1ms)[0m   [0mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 107 AND "friendships".user_id = 109) LIMIT 1[0m
+  [4;36;1mFriendship Create (0.1ms)[0m   [0;1mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 109, 107)[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 109 AND (("friendships".user_id = 107))) [0m
+  [4;36;1mFriendship Load (0.1ms)[0m   [0;1mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 109 AND "friendships".user_id = 107) LIMIT 1[0m
+  [4;35;1mFriendship Create (0.1ms)[0m   [0mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 107, 109)[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 107 AND (("friendships".user_id = 109))) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 101 AND (("friendships".user_id = 109))) [0m
+  [4;36;1mFriendship Load (0.1ms)[0m   [0;1mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 101 AND "friendships".user_id = 109) LIMIT 1[0m
+  [4;35;1mFriendship Create (0.1ms)[0m   [0mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 109, 101)[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 109 AND (("friendships".user_id = 101))) [0m
+  [4;35;1mFriendship Load (0.1ms)[0m   [0mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 109 AND "friendships".user_id = 101) LIMIT 1[0m
+  [4;36;1mFriendship Create (0.1ms)[0m   [0;1mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:19', '2010-11-04 16:02:19', 101, 109)[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 101 AND (("friendships".user_id = 109))) [0m
+  [4;36;1mFlit Last ID (0.6ms)[0m   [0;1mSELECT id FROM "flits" ORDER BY id DESC[0m
+  [4;35;1mFlit Populate (1.0ms)[0m   [0mINSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (66, 110, 'Eaque odio quia aut laboriosam explicabo.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (67, 110, 'Nam unde dolore et.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (68, 110, 'Maiores error sunt quidem nisi.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (69, 110, 'Culpa aut laborum nemo non.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (70, 110, 'Corrupti itaque nulla iure reiciendis est qui.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (71, 110, 'Expedita totam ea id nobis.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (72, 110, 'Consequuntur officiis enim laborum.', '2010-11-04 13:02:19');INSERT INTO "flits" ("id", "user_id", "message", "created_at") VALUES (73, 110, 'Quam ipsa hic quis ut illum qui.', '2010-11-04 13:02:19')[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" [0m
+  [4;35;1mSQL (5.6ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 106 AND (("friendships".user_id = 110))) [0m
+  [4;35;1mFriendship Load (0.1ms)[0m   [0mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 106 AND "friendships".user_id = 110) LIMIT 1[0m
+  [4;36;1mFriendship Create (0.1ms)[0m   [0;1mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:20', '2010-11-04 16:02:20', 110, 106)[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 110 AND (("friendships".user_id = 106))) [0m
+  [4;36;1mFriendship Load (0.1ms)[0m   [0;1mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 110 AND "friendships".user_id = 106) LIMIT 1[0m
+  [4;35;1mFriendship Create (0.1ms)[0m   [0mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:20', '2010-11-04 16:02:20', 106, 110)[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 106 AND (("friendships".user_id = 110))) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 110 AND (("friendships".user_id = 110))) [0m
+  [4;36;1mFriendship Load (0.1ms)[0m   [0;1mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 110 AND "friendships".user_id = 110) LIMIT 1[0m
+  [4;35;1mFriendship Create (0.1ms)[0m   [0mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:20', '2010-11-04 16:02:20', 110, 110)[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 110 AND (("friendships".user_id = 110))) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 103 AND (("friendships".user_id = 110))) [0m
+  [4;36;1mFriendship Load (0.1ms)[0m   [0;1mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 103 AND "friendships".user_id = 110) LIMIT 1[0m
+  [4;35;1mFriendship Create (0.1ms)[0m   [0mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:20', '2010-11-04 16:02:20', 110, 103)[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 110 AND (("friendships".user_id = 103))) [0m
+  [4;35;1mFriendship Load (0.1ms)[0m   [0mSELECT "friendships".id FROM "friendships" WHERE ("friendships"."friend_id" = 110 AND "friendships".user_id = 103) LIMIT 1[0m
+  [4;36;1mFriendship Create (0.1ms)[0m   [0;1mINSERT INTO "friendships" ("created_at", "updated_at", "user_id", "friend_id") VALUES('2010-11-04 16:02:20', '2010-11-04 16:02:20', 103, 110)[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE ("users"."id" = 103 AND (("friendships".user_id = 110))) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" [0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE (("friendships".user_id = 101)) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" LIMIT 1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE (("friendships".user_id = 101)) [0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" LIMIT 1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE (("friendships".user_id = 101)) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" LIMIT 1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE (("friendships".user_id = 101)) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users".id = "friendships".friend_id WHERE (("friendships".user_id = 101)) [0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-11-04 13:11:16) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Redirected to http://localhost:3000/login
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 7ms (DB: 0) | 302 Found [http://localhost/]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-11-04 13:11:16) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 47ms (View: 46, DB: 0) | 200 OK [http://localhost/login]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-11-04 13:11:20) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Completed in 19ms (View: 8, DB: 0) | 200 OK [http://localhost/signup]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-11-04 13:11:21) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/login]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-11-04 13:11:23) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Redirected to http://localhost:3000/login
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-11-04 13:11:23) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/login]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" ORDER BY users.id DESC LIMIT 1[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-11-04 15:41:08) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Redirected to http://localhost:3000/login
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 302 Found [http://localhost/]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-11-04 15:41:08) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 48ms (View: 47, DB: 0) | 200 OK [http://localhost/login]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-11-04 15:41:12) [POST]
+  Parameters: {"commit"=>"Log in", "action"=>"create", "authenticity_token"=>"F058PQjX66voZZZw+GF3GLKus9csocEUlQ/8Q1Lautw=", "controller"=>"sessions", "login"=>"alexis", "password"=>"[FILTERED]"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."username" = 'alexis') LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed in 14ms (DB: 0) | 302 Found [http://localhost/sessions]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-11-04 15:41:12) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 110) [0m
+
+ActionView::MissingTemplate (Missing template home/index.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-11-04 15:42:47) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 110) [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 54ms (View: 38, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-11-04 15:42:59) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 110) [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-11-04 15:43:04) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 110) [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-11-04 15:43:05) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 110) [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-11-04 15:43:06) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 110) [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 39ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-11-04 15:43:06) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 110) [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-11-04 15:43:06) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 110) [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-11-04 15:43:17) [GET]
+
+ActionController::RoutingError (No route matches "/logoout" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2010-11-04 15:43:21) [GET]
+  Parameters: {"action"=>"destroy", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/logout]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-11-04 15:43:21) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Redirected to http://localhost:3000/login
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-11-04 15:43:21) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/login]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-11-04 15:43:23) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/signup]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-11-04 15:43:24) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/login]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-11-04 15:43:30) [POST]
+  Parameters: {"commit"=>"Log in", "action"=>"create", "authenticity_token"=>"F058PQjX66voZZZw+GF3GLKus9csocEUlQ/8Q1Lautw=", "controller"=>"sessions", "login"=>"alexis", "password"=>"[FILTERED]"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."username" = 'alexis') LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/sessions]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-11-04 15:43:30) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 110) [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/]
