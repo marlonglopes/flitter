@@ -1,7 +1,7 @@
 class Flit < ActiveRecord::Base
 
-belongs_to :user
+	belongs_to :user
 
-validates_presence_of	:user_id, :message, :crated_at
+	validates_presence_of	:user_id, :message, :crated_at
 
 end
