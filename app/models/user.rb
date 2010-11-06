@@ -15,7 +15,6 @@ class User < ActiveRecord::Base
   validates_length_of :password, :minimum => 4, :allow_blank => true
 	
 	has_many :flits, :dependent => :destroy
-
 	has_many :friendships
 	has_many :friends, :through => :friendships
 
