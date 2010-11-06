@@ -9,6 +9,8 @@
 require 'faker'
 require 'populator'
 
+User.destroy_all
+
 10.times do
 	user = User.new
 	user.username = Faker::Internet.user_name
@@ -23,5 +25,11 @@ User.all.each do |user|
 		flit.user_id=user.id
 		flit.message=Faker::Lorem.sentence
 	end
+
+#	# Add friends
+#	3.times do
+#		user.add_friend(User.all[rand(User.count)])
+#	end
+
 
 end

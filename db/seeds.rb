@@ -26,10 +26,10 @@ User.all.each do |user|
 		flit.message=Faker::Lorem.sentence
 	end
 
-	# Add friends
-	3.times do
-		user.add_friend(User.all[rand(User.count)])
-	end
+#	# Add friends
+#	3.times do
+#		user.add_friend(User.all[rand(User.count)])
+#	end
 
 
 end
